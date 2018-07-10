@@ -1,0 +1,14 @@
+html, body {
+  background: #757575; /* grey darken-1 */
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  color: #bdbdbd; /* grey lighten-1 */
+}
