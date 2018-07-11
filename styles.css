@@ -55,8 +55,10 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  padding: 5vmin 0;
+  padding: 5vmin 0 10vmin 0;
   margin: 1px auto;
+  min-height: calc(100vh - 140px);
+  border-bottom: 2px solid #e0e0e0; /* grey lighten-2 */
 }
 figure {
   text-align: center;
@@ -84,9 +86,11 @@ a {
   -webkit-transform:scale(1.1);
 }
 footer {
-  position: absolute;
+  /* position: absolute;
   padding: 2vmin;
-  bottom: 0;
+  bottom: 0; */
+  padding: 20px;
+  text-align: center;
 }
 /* @media (min-width: 575) {
   li {
