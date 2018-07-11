@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>FCC | Random Quote Machine</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+  <link type="text/css" href="style.css" rel="stylesheet">
+ </head>
+ <body>
+
+  <div class="container">
+
+      <div class="row text-center">
+        <button class="btn btn-default" type="submit">Get a quote</button>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+          <div class="well" id="quoteWell">
+            <blockquote id="quote">A wise man once said...
+              <footer>Nothing</footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+
+      <div class="row text-center">
+        <a id="twitterShare" href="https://twitter.com/intent/tweet?text=I wise man once said... (Nothing)" target="_blank" title="Tweet this quote!"><i class="fa fa-twitter fa-3x"></i></a>
+      </div>
+
+
+
+  </div> <!-- end container -->
+
+<footer id = "pagefooter" class="text-center">
+        &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        <span title="click me" id="quote2">deweis</span> | quotes API by <a href="https://talaikis.com/random_quotes_api/" target="_blank">talaikis.com
+      </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+ </body>
+</html>

@@ -1,0 +1,36 @@
+body {
+  background-color: #009688;
+  color: #004d40;
+  //margin-top: 0 auto;
+}
+
+.container {
+  margin: 50px auto;
+   /*using calc() to put the footer on the bottom. vh=viewport heigth, whereas 100vh is 100% of the screen height.
+     subtracting the rest of the divs (140px) from the total height.*/
+  min-height: calc(100vh - 140px);
+ }
+
+
+button:hover {
+  background-color: #80cbc4;
+}
+
+.well {
+	margin: 25px auto;
+	//transition: all 1s ease;
+}
+
+a {
+	color: #424242;
+}
+
+a:hover {
+	color: #212121;
+}
+
+#pagefooter {
+	//margin-bottom: 10px;
+	//margin-top: 25px;
+  color: #004d40;
+}

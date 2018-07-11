@@ -1,0 +1,31 @@
+.container {
+  margin: 60px auto;
+  /* using calc() to put the footer on the bottom. vh=viewport heigth, whereas 100vh is 100% of the screen height.
+     subtracting the rest of the divs (150px) from the total height.*/
+  min-height: calc(100vh - 150px);
+ }
+
+#topInfo {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  width: 75px;
+  
+}
+
+.well {
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: #e8f5e9;
+  margin: 10px auto;
+  float:none;
+}
+
+.btn:hover {
+  background-color: #a5d6a7;
+}
+
+#errorMessage {
+  margin: 25px auto;
+}
