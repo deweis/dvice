@@ -16,14 +16,15 @@ nav {
 main {
   display: flex;
   flex-wrap: wrap;
-  padding: 5vmin;
+  padding: 5vmin 0;
 }
 figure {
   text-align: center;
-  margin: 3vmin;
+  margin: 1vmin;
 }
 figcaption {
   color: #757575; /* grey darken-1 */
+  font-size: 3vmin;
 }
 a {
   text-decoration: none;
