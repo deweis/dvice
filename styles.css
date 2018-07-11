@@ -16,3 +16,8 @@ main {
   text-align: center;
   padding-top: 20vmin;
 }
+footer {
+  position: absolute;
+  padding: 2vmin;
+  bottom: 0;
+}
