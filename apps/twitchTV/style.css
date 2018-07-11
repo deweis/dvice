@@ -1,0 +1,78 @@
+html {
+    height: 100vh;
+}
+
+body {
+ font-family: "Korolev","Helvetica Neue",Helvetica,sans-serif;  
+ min-height: 100vh;
+}
+
+.container {
+ min-height: calc(100vh - 40px);
+}
+
+header {
+   margin: 75px auto;
+}
+
+#twitchLogo {
+ max-width: 275px;
+}
+
+h1 {
+ font-size: 3.3em;
+}
+
+.tab-content {
+  margin: 35px 5px;
+}
+
+.channelMedia {
+ padding: 10px;
+ border: 1px solid lightgrey;
+ border-radius: 5px;
+}
+
+.channelLogo {
+ max-width: 60px;
+}
+
+.vidImg {
+ max-width: 75px;
+}
+
+.vidMedia {
+ background-color: #e8f5e9;
+ padding: 10px;
+ border: 1px solid lightgrey;
+ border-radius: 5px;
+ color: #757575;
+ margin-left: 65px;
+ margin-bottom: 5px;
+ max-width: 75%;
+}
+
+.vidUrl:hover {
+ text-decoration: none;
+}
+
+.vidMedia:hover {
+ border: 2px solid #6445A3;
+}
+
+.vidUrl0, .vidUrl1 {
+  display: none;
+}
+
+#btnVOD {
+ background-color: #e8f5e9;
+ padding: 2px 10px;
+ margin-left: 5px;
+ border: 1px solid #bdbdbd;
+ border-radius: 2px;
+ font-weight: bold;
+}
+
+#btnVOD:hover {
+ border: 2px solid #6445A3;
+}

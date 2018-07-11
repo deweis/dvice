@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Twitch.tv JSON API</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+  <link type="text/css" href="style.css" rel="stylesheet">
+
+ </head>
+ <body>
+
+   <div class="container">
+
+	 <!-- header section -->
+	 <div class="row text-center">
+	   <header>
+	     <a href="https://www.twitch.tv/directory/creative" target="_blank"><img id="twitchLogo" class="img-responsive center-block" src="https://res.cloudinary.com/dxx26hhtx/image/upload/v1505152676/Twitch_Logo_Black_oddiyt.png" alt="twitch logo"></a>
+		 <h1> <span style="color: #4caf50;">C</span>
+			  <span style="color: #ff9800;">r</span>
+			  <span style="color: #ff5722;">e</span>
+			  <span style="color: #ffeb3b;">a</span>
+			  <span style="color: #f44336;">t</span>
+			  <span style="color: #2196f3;">i</span>
+			  <span style="color: #cddc39;">v</span>
+			  <span style="color: #ffca28;">e</span>&nbsp;
+			  <span style="color: #6445A3; letter-spacing: 10pt;">Channels</span>
+	   	 </h1>
+       </header>
+     </div> <!-- end row header section -->
+
+     <!-- tab section -->
+     <div class="row">
+       <div class="col-md-8 col-md-offset-2">
+
+         <ul class="nav nav-tabs nav-justified">
+		   <li class="active"><a data-toggle="tab" href="#fcc">FCC</a></li>
+		   <li><a data-toggle="tab" href="#music">Music</a></li>
+		   <li><a data-toggle="tab" href="#art">Art</a></li>
+		   <li><a data-toggle="tab" href="#code">Code</a></li>
+	     </ul>
+
+
+		 <div class="row tab-content">
+
+		   <!-- ************** tab FCC ************** -->
+		   <div id="fcc" class="tab-pane fade in active">
+
+			 <!-- fcc: Channel & Stream Info -->
+			 <div class="media channelMedia" id="freecodecamp">
+			   <div class="media-left">
+				 <a href="https://www.twitch.tv/freecodecamp" target="_blank"><img class="media-object channelLogo img-rounded" src=""></a>
+			   </div>
+			   <div class="media-body">
+			     <h4 class="media-heading">freeCodeCamp</h4>
+			     <p class="currentStream"></p>
+			  </div>
+			     <!-- VOD Section -->
+				 <a href="" target="_blank" class="vidUrl vidUrl0">
+				  <div class="media vidMedia">
+				   <div class="media-left media-middle">
+					 <img class="media-object vidImg vidImg0 img-rounded" src="">
+				   </div>
+				   <div class="media-body">
+					 <h5 class="media-heading vidHeading0"></h5>
+					 <small class="vidVisits0"></small>
+				   </div>
+				  </div>
+				 </a>
+				 <a href="" target="_blank" class="vidUrl vidUrl1">
+				  <div class="media vidMedia">
+				   <div class="media-left media-middle">
+					 <img class="media-object vidImg vidImg1 img-rounded" src="">
+				   </div>
+				   <div class="media-body">
+					 <h5 class="media-heading vidHeading1"></h5>
+					 <small class="vidVisits1"></small>
+				   </div>
+				  </div>
+				 </a>
+			    <!-- end VOD Section -->
+			 </div> <!-- end media section -->
+
+		   </div> <!-- end tab fcc -->
+
+		   <!-- ************** tab Music ************** -->
+		   <div id="music" class="tab-pane fade">
+
+			 <!-- RelaxBeats: Channel & Stream Info -->
+			 <div class="media channelMedia" id="relaxbeats">
+			   <div class="media-left">
+				 <a href="https://www.twitch.tv/relaxbeats" target="_blank"><img class="media-object channelLogo img-rounded" src=""></a>
+			   </div>
+			   <div class="media-body">
+			     <h4 class="media-heading">RelaxBeats</h4>
+			      <p class="currentStream"></p>
+			   </div>
+			     <!-- VOD Section -->
+				 <a href="" target="_blank" class="vidUrl vidUrl0">
+				  <div class="media vidMedia">
+				   <div class="media-left media-middle">
+					 <img class="media-object vidImg vidImg0 img-rounded" src="">
+				   </div>
+				   <div class="media-body">
+					 <h5 class="media-heading vidHeading0"></h5>
+					 <small class="vidVisits0"></small>
+				   </div>
+				  </div>
+				 </a>
+				 <a href="" target="_blank" class="vidUrl vidUrl1">
+				  <div class="media vidMedia">
+				   <div class="media-left media-middle">
+					 <img class="media-object vidImg vidImg1 img-rounded" src="">
+				   </div>
+				   <div class="media-body">
+					 <h5 class="media-heading vidHeading1"></h5>
+					 <small class="vidVisits1"></small>
+				   </div>
+				  </div>
+				 </a>
+			    <!-- end VOD Section -->
+			 </div> <!-- end media section -->
+
+			 <!-- RelaxAudio: Channel & Stream Info -->
+			 <div class="media channelMedia" id="relaxaudio">
+			   <div class="media-left">
+				 <a href="https://www.twitch.tv/relaxaudio" target="_blank"><img class="media-object channelLogo img-rounded" src=""></a>
+			   </div>
+			   <div class="media-body">
+			     <h4 class="media-heading">RelaxAudio</h4>
+                 <p class="currentStream"></p>
+			   </div>
+			     <!-- VOD Section -->
+				 <a href="" target="_blank" class="vidUrl vidUrl0">
+				  <div class="media vidMedia">
+				   <div class="media-left media-middle">
+					 <img class="media-object vidImg vidImg0 img-rounded" src="">
+				   </div>
+				   <div class="media-body">
+					 <h5 class="media-heading vidHeading0"></h5>
+					 <small class="vidVisits0"></small>
+				   </div>
+				  </div>
+				 </a>
+				 <a href="" target="_blank" class="vidUrl vidUrl1">
+				  <div class="media vidMedia">
+				   <div class="media-left media-middle">
+					 <img class="media-object vidImg vidImg1 img-rounded" src="">
+				   </div>
+				   <div class="media-body">
+					 <h5 class="media-heading vidHeading1"></h5>
+					 <small class="vidVisits1"></small>
+				   </div>
+				  </div>
+				 </a>
+			    <!-- end VOD Section -->
+			 </div> <!-- end media section -->
+
+			 <!-- 88bitmusic: Channel & Stream Info -->
+			 <div class="media channelMedia" id="88bitmusic">
+			   <div class="media-left">
+				 <a href="https://www.twitch.tv/88bitmusic" target="_blank"><img class="media-object channelLogo img-rounded" src=""></a>
+			   </div>
+			   <div class="media-body">
+			     <h4 class="media-heading">88bitmusic</h4>
+			      <p class="currentStream"></p>
+			   </div>
+			     <!-- VOD Section -->
+				 <a href="" target="_blank" class="vidUrl vidUrl0">
+				  <div class="media vidMedia">
+				   <div class="media-left media-middle">
+					 <img class="media-object vidImg vidImg0 img-rounded" src="">
+				   </div>
+				   <div class="media-body">
+					 <h5 class="media-heading vidHeading0"></h5>
+					 <small class="vidVisits0"></small>
+				   </div>
+				  </div>
+				 </a>
+				 <a href="" target="_blank" class="vidUrl vidUrl1">
+				  <div class="media vidMedia">
+				   <div class="media-left media-middle">
+					 <img class="media-object vidImg vidImg1 img-rounded" src="">
+				   </div>
+				   <div class="media-body">
+					 <h5 class="media-heading vidHeading1"></h5>
+					 <small class="vidVisits1"></small>
+				   </div>
+				  </div>
+				 </a>
+			    <!-- end VOD Section -->
+			 </div> <!-- end media section -->
+
+			 <!-- pwrblnd: Channel & Stream Info -->
+			 <div class="media channelMedia" id="pwrblnd">
+			   <div class="media-left">
+				 <a href="https://www.twitch.tv/pwrblnd" target="_blank"><img class="media-object channelLogo img-rounded" src=""></a>
+			   </div>
+			   <div class="media-body">
+			     <h4 class="media-heading">pwrblnd</h4>
+			      <p class="currentStream"></p>
+			   </div>
+			     <!-- VOD Section -->
+				 <a href="" target="_blank" class="vidUrl vidUrl0">
+				  <div class="media vidMedia">
+				   <div class="media-left media-middle">
+					 <img class="media-object vidImg vidImg0 img-rounded" src="">
+				   </div>
+				   <div class="media-body">
+					 <h5 class="media-heading vidHeading0"></h5>
+					 <small class="vidVisits0"></small>
+				   </div>
+				  </div>
+				 </a>
+				 <a href="" target="_blank" class="vidUrl vidUrl1">
+				  <div class="media vidMedia">
+				   <div class="media-left media-middle">
+					 <img class="media-object vidImg vidImg1 img-rounded" src="">
+				   </div>
+				   <div class="media-body">
+					 <h5 class="media-heading vidHeading1"></h5>
+					 <small class="vidVisits1"></small>
+				   </div>
+				  </div>
+				 </a>
+			    <!-- end VOD Section -->
+			 </div> <!-- end media section -->
+
+			 <!-- NinesOnFours: Channel & Stream Info -->
+			 <div class="media channelMedia" id="NinesOnFours">
+			   <div class="media-left">
+				 <a href="https://www.twitch.tv/NinesOnFours" target="_blank"><img class="media-object channelLogo img-rounded" src=""></a>
+			   </div>
+			   <div class="media-body">
+			     <h4 class="media-heading">NinesOnFours</h4>
+			      <p class="currentStream"></p>
+			   </div>
+			     <!-- VOD Section -->
+				 <a href="" target="_blank" class="vidUrl vidUrl0">
+				  <div class="media vidMedia">
+				   <div class="media-left media-middle">
+					 <img class="media-object vidImg vidImg0 img-rounded" src="">
+				   </div>
+				   <div class="media-body">
+					 <h5 class="media-heading vidHeading0"></h5>
+					 <small class="vidVisits0"></small>
+				   </div>
+				  </div>
+				 </a>
+				 <a href="" target="_blank" class="vidUrl vidUrl1">
+				  <div class="media vidMedia">
+				   <div class="media-left media-middle">
+					 <img class="media-object vidImg vidImg1 img-rounded" src="">
+				   </div>
+				   <div class="media-body">
+					 <h5 class="media-heading vidHeading1"></h5>
+					 <small class="vidVisits1"></small>
+				   </div>
+				  </div>
+				 </a>
+			    <!-- end VOD Section -->
+			 </div> <!-- end media section -->
+		   </div> <!-- end tab music -->
+
+		   <!-- ************** tab Art ************** -->
+		   <div id="art" class="tab-pane fade">
+
+			 <!-- Oabnormal: Channel & Stream Info -->
+			 <div class="media channelMedia" id="oabnormal">
+			   <div class="media-left">
+				 <a href="https://www.twitch.tv/oabnormal" target="_blank"><img class="media-object channelLogo img-rounded" src=""></a>
+			   </div>
+			   <div class="media-body">
+			     <h4 class="media-heading">Oabnormal</h4>
+			      <p class="currentStream"></p>
+			   </div>
+			     <!-- VOD Section -->
+				 <a href="" target="_blank" class="vidUrl vidUrl0">
+				  <div class="media vidMedia">
+				   <div class="media-left media-middle">
+					 <img class="media-object vidImg vidImg0 img-rounded" src="">
+				   </div>
+				   <div class="media-body">
+					 <h5 class="media-heading vidHeading0"></h5>
+					 <small class="vidVisits0"></small>
+				   </div>
+				  </div>
+				 </a>
+				 <a href="" target="_blank" class="vidUrl vidUrl1">
+				  <div class="media vidMedia">
+				   <div class="media-left media-middle">
+					 <img class="media-object vidImg vidImg1 img-rounded" src="">
+				   </div>
+				   <div class="media-body">
+					 <h5 class="media-heading vidHeading1"></h5>
+					 <small class="vidVisits1"></small>
+				   </div>
+				  </div>
+				 </a>
+			    <!-- end VOD Section -->
+			 </div> <!-- end media section -->
+
+			 <!-- Dream_Boss: Channel & Stream Info -->
+			 <div class="media channelMedia" id="dream_boss">
+			   <div class="media-left">
+				 <a href="https://www.twitch.tv/dream_boss" target="_blank"><img class="media-object channelLogo img-rounded" src=""></a>
+			   </div>
+			   <div class="media-body">
+			     <h4 class="media-heading">Dream Boss</h4>
+			      <p class="currentStream"></p>
+			   </div>
+			     <!-- VOD Section -->
+				 <a href="" target="_blank" class="vidUrl vidUrl0">
+				  <div class="media vidMedia">
+				   <div class="media-left media-middle">
+					 <img class="media-object vidImg vidImg0 img-rounded" src="">
+				   </div>
+				   <div class="media-body">
+					 <h5 class="media-heading vidHeading0"></h5>
+					 <small class="vidVisits0"></small>
+				   </div>
+				  </div>
+				 </a>
+				 <a href="" target="_blank" class="vidUrl vidUrl1">
+				  <div class="media vidMedia">
+				   <div class="media-left media-middle">
+					 <img class="media-object vidImg vidImg1 img-rounded" src="">
+				   </div>
+				   <div class="media-body">
+					 <h5 class="media-heading vidHeading1"></h5>
+					 <small class="vidVisits1"></small>
+				   </div>
+				  </div>
+				 </a>
+			    <!-- end VOD Section -->
+			 </div> <!-- end media section -->
+
+			 <!-- AlbertFisk: Channel & Stream Info -->
+			 <div class="media channelMedia" id="albertfisk">
+			   <div class="media-left">
+				 <a href="https://www.twitch.tv/albertfisk" target="_blank"><img class="media-object channelLogo img-rounded" src=""></a>
+			   </div>
+			   <div class="media-body">
+			     <h4 class="media-heading">AlbertFisk</h4>
+			      <p class="currentStream"></p>
+			   </div>
+			     <!-- VOD Section -->
+				 <a href="" target="_blank" class="vidUrl vidUrl0">
+				  <div class="media vidMedia">
+				   <div class="media-left media-middle">
+					 <img class="media-object vidImg vidImg0 img-rounded" src="">
+				   </div>
+				   <div class="media-body">
+					 <h5 class="media-heading vidHeading0"></h5>
+					 <small class="vidVisits0"></small>
+				   </div>
+				  </div>
+				 </a>
+				 <a href="" target="_blank" class="vidUrl vidUrl1">
+				  <div class="media vidMedia">
+				   <div class="media-left media-middle">
+					 <img class="media-object vidImg vidImg1 img-rounded" src="">
+				   </div>
+				   <div class="media-body">
+					 <h5 class="media-heading vidHeading1"></h5>
+					 <small class="vidVisits1"></small>
+				   </div>
+				  </div>
+				 </a>
+			    <!-- end VOD Section -->
+			 </div> <!-- end media section -->
+
+			 <!-- glassmancometh: Channel & Stream Info -->
+			 <div class="media channelMedia" id="glassmancometh">
+			   <div class="media-left">
+				 <a href="https://www.twitch.tv/glassmancometh" target="_blank"><img class="media-object channelLogo img-rounded" src=""></a>
+			   </div>
+			   <div class="media-body">
+			     <h4 class="media-heading">Glassmancometh</h4>
+			      <p class="currentStream"></p>
+			   </div>
+			     <!-- VOD Section -->
+				 <a href="" target="_blank" class="vidUrl vidUrl0">
+				  <div class="media vidMedia">
+				   <div class="media-left media-middle">
+					 <img class="media-object vidImg vidImg0 img-rounded" src="">
+				   </div>
+				   <div class="media-body">
+					 <h5 class="media-heading vidHeading0"></h5>
+					 <small class="vidVisits0"></small>
+				   </div>
+				  </div>
+				 </a>
+				 <a href="" target="_blank" class="vidUrl vidUrl1">
+				  <div class="media vidMedia">
+				   <div class="media-left media-middle">
+					 <img class="media-object vidImg vidImg1 img-rounded" src="">
+				   </div>
+				   <div class="media-body">
+					 <h5 class="media-heading vidHeading1"></h5>
+					 <small class="vidVisits1"></small>
+				   </div>
+				  </div>
+				 </a>
+			    <!-- end VOD Section -->
+			 </div> <!-- end media section -->
+		   </div> <!-- end tab art -->
+
+           <!-- ************** tab Code ************** -->
+		   <div id="code" class="tab-pane fade">
+
+			 <!-- Omatum_Greg: Channel & Stream Info -->
+			 <div class="media channelMedia" id="omatum_greg">
+			   <div class="media-left">
+				 <a href="https://www.twitch.tv/omatum_greg" target="_blank"><img class="media-object channelLogo img-rounded" src=""></a>
+			   </div>
+			   <div class="media-body">
+			     <h4 class="media-heading">Omatum Greg</h4>
+			      <p class="currentStream"></p>
+			   </div>
+			     <!-- VOD Section -->
+				 <a href="" target="_blank" class="vidUrl vidUrl0">
+				  <div class="media vidMedia">
+				   <div class="media-left media-middle">
+					 <img class="media-object vidImg vidImg0 img-rounded" src="">
+				   </div>
+				   <div class="media-body">
+					 <h5 class="media-heading vidHeading0"></h5>
+					 <small class="vidVisits0"></small>
+				   </div>
+				  </div>
+				 </a>
+				 <a href="" target="_blank" class="vidUrl vidUrl1">
+				  <div class="media vidMedia">
+				   <div class="media-left media-middle">
+					 <img class="media-object vidImg vidImg1 img-rounded" src="">
+				   </div>
+				   <div class="media-body">
+					 <h5 class="media-heading vidHeading1"></h5>
+					 <small class="vidVisits1"></small>
+				   </div>
+				  </div>
+				 </a>
+			    <!-- end VOD Section -->
+			 </div> <!-- end media section -->
+
+			 <!-- TurtleWolfe: Channel & Stream Info -->
+			 <div class="media channelMedia" id="turtlewolfe">
+			   <div class="media-left">
+				 <a href="https://www.twitch.tv/turtlewolfe" target="_blank"><img class="media-object channelLogo img-rounded" src=""></a>
+			   </div>
+			   <div class="media-body">
+			     <h4 class="media-heading">TurtleWolfe</h4>
+			      <p class="currentStream"></p>
+			   </div>
+			     <!-- VOD Section -->
+				 <a href="" target="_blank" class="vidUrl vidUrl0">
+				  <div class="media vidMedia">
+				   <div class="media-left media-middle">
+					 <img class="media-object vidImg vidImg0 img-rounded" src="">
+				   </div>
+				   <div class="media-body">
+					 <h5 class="media-heading vidHeading0"></h5>
+					 <small class="vidVisits0"></small>
+				   </div>
+				  </div>
+				 </a>
+				 <a href="" target="_blank" class="vidUrl vidUrl1">
+				  <div class="media vidMedia">
+				   <div class="media-left media-middle">
+					 <img class="media-object vidImg vidImg1 img-rounded" src="">
+				   </div>
+				   <div class="media-body">
+					 <h5 class="media-heading vidHeading1"></h5>
+					 <small class="vidVisits1"></small>
+				   </div>
+				  </div>
+				 </a>
+			    <!-- end VOD Section -->
+			 </div> <!-- end media section -->
+
+		   </div> <!-- end tab art -->
+
+		 </div> <!-- end tab-content -->
+       </div> <!-- end col-md-8 -->
+     </div> <!-- end tab section -->
+
+  </div> <!-- end container -->
+  <footer class="text-center">
+    &copy; <script>document.write(new Date().getFullYear());</script> deweis
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+ </body>
+</html>
+
