@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>The Calculator</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+  <link type="text/css" href="style.css" rel="stylesheet">
+
+ </head>
+ <!-- Specs: Example: https://codepen.io/FreeCodeCamp/full/rLJZrA/. -->
+
+ <body>
+
+   <div class="container">
+     <div class="row">
+       <table id="main">
+         <tr>
+           <th colspan="4" id = "display">0</th>
+         </tr>
+         <tr>
+           <th colspan="4" id = "displayCalc">0</th>
+         </tr>
+         <tr>
+          <td class = "num" id="keyAC" onclick="clearAll()" ontouchstart="">AC</td>
+          <td class = "num" id="keyCE" onclick="clearEntry()" ontouchstart="">CE</td>
+          <td class = "num"></td>
+          <td class = "num" id="keyMultiply" onclick="displayCalc('*')" ontouchstart="">*</td>
+        </tr>
+         <tr>
+          <td class = "num" id="key7" onclick="displayNum(7)" ontouchstart="">7</td>
+          <td class = "num" id="key8" onclick="displayNum(8)" ontouchstart="">8</td>
+          <td class = "num" id="key9" onclick="displayNum(9)" ontouchstart="">9</td>
+          <td class = "num" id="keyDivide" onclick="displayCalc('/')" ontouchstart="">/</td>
+        </tr>
+        <tr>
+          <td class = "num" id="key4" onclick="displayNum(4)" ontouchstart="">4</td>
+          <td class = "num" id="key5" onclick="displayNum(5)" ontouchstart="">5</td>
+          <td class = "num" id="key6" onclick="displayNum(6)" ontouchstart="">6</td>
+          <td class = "num" id="keyPlus" onclick="displayCalc('+')" ontouchstart="">+</td>
+        </tr>
+        <tr>
+          <td class = "num" id="key1" onclick="displayNum(1)" ontouchstart="">1</td>
+          <td class = "num" id="key2" onclick="displayNum(2)" ontouchstart="">2</td>
+          <td class = "num" id="key3" onclick="displayNum(3)" ontouchstart="">3</td>
+          <td class = "num" id="keyMinus" onclick="displayCalc('-')" ontouchstart="">-</td>
+        </tr>
+        <tr>
+          <td class = "num" id="keyNegative" onclick="displayMin()" ontouchstart="">-</td>
+          <td class = "num" id="key0" onclick="displayNum(0)" ontouchstart="">0</td>
+          <td class = "num" id="keyDecimal" onclick="displayDec()" ontouchstart="">.</td>
+          <td class = "num" id="keyResult" onclick="displayResult()" ontouchstart="">=</td>
+        </tr>
+       </table>
+     </div>
+   </div>
+   <!-- ontouchstart="" -> https://stackoverflow.com/questions/3885018/active-pseudo-class-doesnt-work-in-mobile-safari -->
+   <footer class="text-center">
+       &copy;
+         <script>
+           document.write(new Date().getFullYear());
+         </script>
+       deweis
+  </footer>
+
+ <script type="text/javascript" src="script.js"></script>
+ </body>
+</html>
