@@ -8,16 +8,55 @@ header {
 nav {
   padding: 2vmin;
   padding-bottom: 5vmin;
+  display: flex;
+  align-items: center;
+}
+ul {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0;
+  justify-content: space-evenly;
+  margin-left: 2vmin;
+}
+li {
+  margin: 3vmin 3vw;
+}
+.fab, .fas {
+  color: #757575; /* grey darken-1 */
+  font-size: 6vmin;
+}
+.fa-github {
+  color: #24292E;
+}
+.fa-codepen {
+  color: #000;
+}
+.fa-free-code-camp {
+  color: #006400;
+}
+.fa-linkedin {
+  color: #0077B5;
+}
+.logo-remote {
+  width: 8vmin;
+  height: 100%;
 }
 .logo {
   max-width: 100px;
-  width: 30%;
+  width: 15%;
+  height: 15%;
+}
+ul {
+  list-style: none;
 }
 main {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 5vmin 0;
+  margin: 1px auto;
 }
 figure {
   text-align: center;
@@ -34,7 +73,7 @@ a {
   width: 20vmin;
   height: 20vmin;
   border: 3px solid #e0e0e0; /* grey lighten-2 */
-  border-radius: 10px;
+  border-radius: 12px;
   margin: 3vmin 3vmin 1vmin 3vmin;
   transition: all 0.7s ease;
   -webkit-transition: all 0.7s ease;
@@ -49,3 +88,8 @@ footer {
   padding: 2vmin;
   bottom: 0;
 }
+/* @media (min-width: 575) {
+  li {
+    width: 50px;
+  }
+} */
