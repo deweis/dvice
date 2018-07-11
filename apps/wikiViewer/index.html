@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>New Project</title>
+  <meta charset="utf-8">
+  <link type="text/css" href="style.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+ </head>
+ <body>
+
+ <div class="container">
+
+  <div class="row text-center" id="topRow">
+
+    <!-- The Wikipedia Logo -->
+    <div class="col-md-4">
+      <a href="https://en.wikipedia.org" target="_blank">
+        <img id="wikiLogo" class="img-responsive" src="https://res.cloudinary.com/dxx26hhtx/image/upload/v1504868102/wikipediaLogo_qoersl.png" alt="Wikipedia logo">
+      </a>
+    </div>
+
+ <!-- The search field -->
+	<div class="col-md-4">
+	  <div class="input-group">
+	    <input type="text" class="form-control" placeholder="Search Wikipedia.." name="search" id="searchText">
+	    <span class="input-group-btn">
+	      <button class="btn btn-default" type="submit" id="btnSearch"><i class="glyphicon glyphicon-search"></i></button>
+	    </span>
+	  </div>
+    </div>
+
+     <!-- The random Article button -->
+ 	<div class="col-md-4 text-center">
+ 	  <button class="btn btn-default" id="btnRandom">Random Article</button>
+    </div>
+
+  </div> <!-- end topRow -->
+
+  <div class="row" id="contentRow">
+
+    <!-- Show the search term -->
+    <div class="col-md-7 col-md-offset-1" id="colArticle">
+      <div class="text-center wellTitle">
+        <h3><span id="showSearch"></span></h3>
+      </div>
+      <!-- the article -->
+      <div class="wellArticle">
+        <p><span id="article"></span></p>
+      </div>
+    </div>
+
+    <!-- Show button list of fullTextSearch Results -->
+    <div class="col-md-3" id="display-result">
+    </div>
+
+  </div>
+
+ </div> <!-- end container -->
+
+ <footer class="text-center">
+     &copy;
+       <script>
+         document.write(new Date().getFullYear());
+       </script>
+     deweis
+</footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+ </body>
+</html>
+
+
