@@ -7,14 +7,40 @@ header {
 }
 nav {
   padding: 2vmin;
+  padding-bottom: 5vmin;
 }
 .logo {
   max-width: 100px;
   width: 30%;
 }
 main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5vmin;
+}
+figure {
   text-align: center;
-  padding-top: 20vmin;
+  margin: 3vmin;
+}
+figcaption {
+  color: #757575; /* grey darken-1 */
+}
+a {
+  text-decoration: none;
+}
+.app-logo {
+  width: 20vmin;
+  height: 20vmin;
+  border: 3px solid #e0e0e0; /* grey lighten-2 */
+  border-radius: 10px;
+  margin: 3vmin 3vmin 1vmin 3vmin;
+  transition: all 0.7s ease;
+  -webkit-transition: all 0.7s ease;
+}
+.app-logo:hover {
+  cursor: pointer;
+  transform: scale(1.1);  /*https://www.webnots.com/11-image-hovering-effects-for-weebly/*/
+  -webkit-transform:scale(1.1);
 }
 footer {
   position: absolute;
