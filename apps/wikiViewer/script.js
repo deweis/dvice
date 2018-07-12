@@ -8,7 +8,7 @@ $(document).ready(function() {
 
     $.ajax({
      type: "GET",
-     url: "http://en.wikipedia.org/w/api.php?action=parse&format=json&prop=text&section=0&page="+searchItem+"&callback=?",
+     url: "https://en.wikipedia.org/w/api.php?action=parse&format=json&prop=text&section=0&page="+searchItem+"&callback=?",
 	 contentType: 'application/json; charset=utf-8',
 	 dataType: 'jsonp',
 	 success: function (data, textStatus, jqXHR) {
@@ -46,7 +46,7 @@ $(document).ready(function() {
   function getDataList(searchItem) {
 
 	    $.ajax({
-             url: 'http://en.wikipedia.org/w/api.php',
+             url: 'https://en.wikipedia.org/w/api.php',
              data: { action: 'query', list: 'search', srsearch: searchItem, srlimit: 8, format: 'json' },
              dataType: 'jsonp',
              success: function (apiResult) {
@@ -105,7 +105,7 @@ $(document).ready(function() {
   /* Get Random Article and show list of full Search done with random article title */
   $('#btnRandom').click(function() {
 
-	  $.getJSON("http://en.wikipedia.org/w/api.php?action=query&generator=random&grnnamespace=0&format=json&callback=?", function (data) {
+	  $.getJSON("https://en.wikipedia.org/w/api.php?action=query&generator=random&grnnamespace=0&format=json&callback=?", function (data) {
         $.each(data.query.pages, function(k, v) {
 
 		  var title = v.title;
