@@ -10,6 +10,7 @@ nav {
   padding-bottom: 5vmin;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 ul {
   margin: 0;
@@ -17,8 +18,8 @@ ul {
   flex-wrap: wrap;
   align-items: center;
   padding: 0;
-  justify-content: space-evenly;
-  margin-left: 2vmin;
+  justify-content: flex-end;
+  width: 80%;
 }
 li {
   margin: 3vmin 3vw;
