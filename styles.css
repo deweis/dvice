@@ -19,7 +19,7 @@ ul {
   align-items: center;
   padding: 0;
   justify-content: flex-end;
-  width: 80%;
+  width: 100%;
 }
 li {
   margin: 3vmin 3vw;
@@ -43,6 +43,11 @@ li {
 .logo-remote {
   width: 8vmin;
   height: 100%;
+}
+.logo-insta {
+  width: 5.5vmin;
+  height: 100%;
+  padding-top: 1vmin;
 }
 .logo {
   max-width: 100px;
