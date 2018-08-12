@@ -70,8 +70,6 @@ ul {
   100% {opacity: 1;}
 }
 .header-text {
-  animation-name: fadeIn;
-  animation-duration: 3s;
   color: #757575; /* grey darken-1 */
   font-size: 22px;
   margin: auto;
@@ -96,6 +94,8 @@ main {
   padding: 30px 0 0 0;
 }
 blockquote {
+  animation-duration: 3s;  
+  animation-name: fadeIn;
   font-size: 18px;
   margin: 0;
 }
