@@ -4,7 +4,7 @@ const quotes = [// Thank you freeCodeCamp.org for most of the quotes in here!
   { author: 'George Bernard Shaw',
     quote: 'Life isn\'t about finding yourself. Life is about creating yourself.', },
   { author: 'Ernest Hemingway',
-    quote: 'There is nothing noble in being superior to your fellow person; true nobility is being superior to your former self.', },
+    quote: 'There is nothing noble in being superior to your fellow man; true nobility is being superior to your former self.', },
   { author: 'C. S. Lewis',
     quote: 'We are what we believe we are.', },
   { author: 'Thomas A. Edison',
