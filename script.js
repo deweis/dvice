@@ -84,10 +84,19 @@ function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-let index = getRandomInt(0, quotes.length - 1);
+function getRandomQuote() {
+  const index = getRandomInt(0, quotes.length - 1);
+  const quote = `
+    <blockquote>&bdquo;${quotes[index].quote}&ldquo;
+      <footer><em>- ${quotes[index].author}</em></footer>
+    </blockquote>
+  `;
+  return quote;
+};
 
-document.getElementById('quote').innerHTML = `
-  <blockquote>&bdquo;${quotes[index].quote}&ldquo;
-    <footer><em>- ${quotes[index].author}</em></footer>
-  </blockquote>
-`;
+document.getElementById('quote').innerHTML = getRandomQuote();
+
+/* Update the quote on the page every 15secs */
+setInterval(function () {
+  document.getElementById('quote').innerHTML = getRandomQuote();
+}, 15000);
