@@ -1,3 +1,19 @@
+/* https://developers.google.com/web/fundamentals/primers/service-workers/ */
+
+// if ('serviceWorker' in navigator) {
+//
+//   // delay registration until after the load event fires on window
+//   window.addEventListener('load', function () {
+//     navigator.serviceWorker.register('/sw.js').then(function (registration) {
+//       // Registration was successful
+//       console.log('ServiceWorker registration successful with scope: ', registration.scope);
+//     }, function (err) {
+//       // registration failed :(
+//       console.log('ServiceWorker registration failed: ', err);
+//     });
+//   });
+// }
+
 const quotes = [// Thank you freeCodeCamp.org for most of the quotes in here!
   { author: 'Jonathan Swift',
     quote: 'May you live every day of your life', },
