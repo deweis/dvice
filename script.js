@@ -94,9 +94,17 @@ function getRandomQuote() {
   return quote;
 };
 
-document.getElementById('quote').innerHTML = getRandomQuote();
-
-/* Update the quote on the page every 15secs */
-setInterval(function () {
+function setQuote() {
   document.getElementById('quote').innerHTML = getRandomQuote();
-}, 15000);
+};
+
+setQuote();
+
+let quoteInterval = setInterval(setQuote, 10000);
+
+/* Get a new quote upon user click and restart the interval */
+document.getElementById('quote').addEventListener('click', function () {
+  clearInterval(quoteInterval);
+  setQuote();
+  quoteInterval = setInterval(setQuote, 10000);
+});
