@@ -101,6 +101,7 @@ blockquote {
 }
 .quote {
   border-bottom: 2px solid #e0e0e0; /* grey lighten-2 */
+  min-height: 5vh;
   padding: 10vmin 15vmin;
   text-align: center;
 }
