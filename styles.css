@@ -101,6 +101,7 @@ blockquote {
 }
 .quote {
   border-bottom: 2px solid #e0e0e0; /* grey lighten-2 */
+  cursor: pointer;
   min-height: 5vh;
   padding: 10vmin 15vmin;
   text-align: center;
@@ -192,6 +193,14 @@ blockquote footer {
 @media (min-width: 1200px) {
   body {
     width: 1200px;
+    margin: auto;
+  }
+}
+
+/* Super large devices (large desktops, 1920px and up) */
+@media (min-width: 1920px) {
+  body {
+    width: 1400px;
     margin: auto;
   }
 }
