@@ -1,0 +1,427 @@
+/**
+ * Thanks to https://codepen.io/mburakerman/pen/zrNYwZ for the
+ * responsive nav bar concept
+ */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+/**
+ * Header Section and responsive navigation
+ */
+h1 {
+  text-align: center;
+  color: #424242; /* grey darken-3 */
+  margin: 8px;
+}
+header {
+  background: #ecbe13; /*#eeeeee; grey lighten-3 */
+  border-radius: 5px;
+  margin: 8px;
+  position: sticky; /* https://www.w3schools.com/howto/howto_js_navbar_sticky.asp */
+  top: 0;
+  z-index: 999;
+}
+.header-img {
+  width: 40%;
+  height: 27%;
+  max-width: 167px;
+  padding: 2vmin 1vmin 1vmin 2vmin;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-links {
+  align-self: flex-end;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin-bottom: 0;
+  padding-left: 0;
+  width: 70%;
+}
+.nav-links li {
+  line-height: 50px;
+  width: 25%;
+  text-align: center;
+}
+.nav-links li:hover {
+  background: #F4D14E; /*#e0e0e0; grey lighten-2 */
+  border-radius: 5px;
+  cursor: pointer;
+}
+.nav-link {
+  padding: 5% 26%;
+  font-size:calc(1em + 1vmin);
+  text-decoration: none;
+  color: #616161; /* grey darken-2 */
+  font-weight: bold;
+  transition: all 0.3s ease-out;
+}
+.hamburger {
+  align-self: center;
+  cursor: pointer;
+  display: none;
+  height: 7vmax;
+  margin-right: 4vmin;
+  width: 6vmax;
+  z-index: 999;
+  /* transition: all 0.3s ease-in; */
+}
+.hamburger .span {
+  backface-visibility: hidden;
+  background: #616161; /* grey darken-2 */
+  border-radius: 2px;
+  height: 7px;
+  margin: 5px auto;
+}
+.span-one {
+  transform: rotate(45deg) translateX(6px) translateY(6px);
+}
+.span-two {
+  opacity: 0;
+}
+.span-three {
+  transform: rotate(-45deg) translateX(10px) translateY(-12px);
+}
+.nav-toggled {
+  background: #ecbe13; /* #eeeeee; grey lighten-3 */
+  bottom: 0;
+  display: none;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+.nav-toggled .nav-links {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  width: 100%;
+}
+.nav-toggled .nav-links li {
+  font-size:calc(2em + 5vmin);
+  line-height: 25vmin;
+  width: 100%;
+}
+
+/**
+ * Main section - CSS Grid
+ */
+main {
+  padding: 1vmin;
+  display: grid;
+  grid-template-areas:
+      "intro intro intro"
+      "cloud cloud cloud"
+      "vision vision vision"
+      "mission mission mission"
+      "values values values"
+      "outro outro outro"
+      "video video video"
+      "lego lego lego"
+      "gvcs gvcs gvcs"
+      "gvcs-def gvcs-def gvcs-def"
+      "gvcs-status gvcs-status gvcs-status"
+      "completion completion completion"
+      "form form form"
+      "url url url";
+  grid-template-columns: 32% 32% 32%;
+  /* grid-template-rows: auto auto auto auto auto auto; */
+  /* grid-column-gap: 2%;*/
+  grid-column-gap: 2%;
+  grid-row-gap: 1em;
+  margin: 8px;
+}
+.quote {
+  font-size: 1.4em;
+  padding: 2vw 8vw;
+}
+.intro {
+  grid-area: intro;
+  /* grid-column: 1 / 4; */
+}
+:target {
+  display: block;
+  position: relative;
+  top: -18vh;
+  visibility: hidden;
+}
+.home:target {
+  top: 0;
+}
+.core {
+  /* border: 1px solid #ecbe13; */
+  border-radius: 5px;
+  box-shadow: 0 1px 10px #ecbe13;
+  padding: 1em;
+}
+.word-cloud {
+  align-self: center;
+  grid-area: cloud;
+  justify-self: center;
+  padding-bottom: 1em;
+  width: 75%;
+}
+.vision {
+  grid-area: vision;
+  /* grid-column: 1 / 2; */
+}
+.mission {
+  grid-area: mission;
+  /* grid-column: 2 / 3; */
+}
+.values {
+  grid-area: values;
+  /* grid-column: 3 / 4; */
+}
+.outro {
+  grid-area: outro;
+  /* text-align: justify; */
+}
+.outro p {
+  margin: 0;
+}
+form {
+  border-top: 2px solid #eeeeee; /* grey lighten-3 */
+  grid-area: form;
+  /* grid-column: 1 / 4; */
+  padding-top: 3vmin;
+  text-align: center;
+}
+/* Thank you https://blog.theodo.fr/2018/01/responsive-iframes-css-trick/ */
+.video-container {
+  grid-area: video;
+  /* grid-column: 1 / 4; */
+}
+.video-container div div:first-child {
+  overflow: hidden; /* to hide any elements that might be placed outside */
+  padding-top: 56.25%; /* This is where the magic is. In CSS, the padding-top
+    * property can receive a percentage, this is what keeps our iframe to the
+    * right ratio. By using percentage, it will calculate the padding to use
+    * based on the width of the element. In this case, we want to keep the
+    * ratio of 56.26% (height 9 ÷ width 16).*/
+  position: relative; /* so that we can later position our iframe in relation to the wrapping element. */
+}
+iframe {
+  border: 0;
+  display: block;
+  position: absolute; /* positions the element based on the closest non static,
+    * parent element. In this case it will give the iframe a position relative
+    * to the wrapper and let it be positioned over the padding of the wrapper. */
+  top: 0; /* used to position the iframe at the center of the container. */
+  left: 0; /* used to position the iframe at the center of the container. */
+  width: 100%; /* make the iframe take all of the wrapper’s space. */
+  height: 100%; /* make the iframe take all of the wrapper’s space. */
+}
+.lego {
+  grid-area: lego;
+  /* text-align: justify; */
+}
+.lego p {
+  margin: 0;
+}
+.gvcs {
+  grid-area: gvcs;
+}
+.gvcs img {
+  align-self: center;
+  justify-self: center;
+  padding-bottom: 1em;
+  width: 100%;
+}
+.gvcs-def {
+  grid-area: gvcs-def;
+}
+.gvcs-def p,
+.completion p {
+  margin-top: 0;
+}
+.gvcs-status {
+  grid-area: gvcs-status;
+  align-self: center;
+  justify-self: center;
+  padding-bottom: 1em;
+  width: 100%;
+  cursor: pointer;
+}
+.completion {
+  grid-area: completion;
+}
+.newsletter {
+  color: #616161; /* grey darken-2 */
+  display: block;
+  font-size: 1.3em;
+  padding: 6px;
+}
+.url {
+  grid-area: url;
+  text-align: center;
+}
+input {
+  font-size: 1.1em;
+  margin: 2vmin;
+}
+.input-text {
+  border: 2px solid #bdbdbd  ; /* grey lighten-1 */
+  border-radius: 4px;
+  padding: 4px;
+}
+.input-submit {
+  background: #4CAF50;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  padding: 6px 14px;
+}
+.input-submit:hover {
+  filter: brightness(85%);
+}
+footer {
+  color: #bdbdbd  ; /* grey lighten-1 */
+  font-size: 0.8em;
+  padding: 0.7em;
+  text-align: center;
+  border-top: 2px solid #eeeeee; /* grey lighten-3 */
+}
+
+/**
+ * Media queries
+ */
+@media (min-width: 450px) {
+   :target {
+     top: -20vh;
+   }
+   .home:target {
+     top: 0;
+   }
+}
+@media (max-width: 650px) {
+  nav .nav-links {
+    display: none;
+  }
+  .hamburger {
+    display: inline-block;
+    /* transition: all 0.3s ease-in;     */
+  }
+}
+@media (min-width: 650px) {
+  main {
+    padding: 1vmin;
+    display: grid;
+    grid-template-areas:
+        "intro intro cloud"
+        "vision mission values"
+        "outro outro outro"
+        "video video video"
+        "lego lego lego"
+        "gvcs gvcs gvcs"
+        "gvcs-def gvcs-def gvcs-def"
+        "gvcs-status gvcs-status gvcs-status"
+        "completion completion completion"
+        "form form form"
+        "url url url";
+  }
+  :target {
+    top: -22vh;
+  }
+  .home:target {
+    top: 0;
+  }
+  .intro {
+    margin-right: 7vw;
+  }
+  .word-cloud {
+    margin-left: -20vw;
+    padding-bottom: 0;
+    width: 110%;
+  }
+  .video-container {
+    /* margin: 5vmin auto; */
+    /* width: 75%; */
+    width: 100%;
+  }
+  .gvcs h2 {
+    font-size: 28px;
+    width: 220%;
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    margin: auto;
+    width: 999px;
+  }
+  main {
+    grid-template-areas:
+        "intro intro cloud"
+        "vision mission values"
+        "outro outro outro"
+        "video video video"
+        "lego lego lego"
+        "gvcs gvcs gvcs-def"
+        "completion completion completion"
+        "gvcs-status gvcs-status gvcs-status"
+        "form form form"
+        "url url url";
+  }
+  .quote {
+    font-size: 1.4em;
+    padding: 2vw 100px;
+  }
+  .word-cloud {
+    margin-left: -200px;
+  }
+  .lego {
+    text-align: center;
+  }
+  .gvcs {
+    width: 75%;
+  }
+  .gvcs-def {
+    align-self: center;
+    margin-left: -220px;
+    margin-top: 25px;
+    width: 125%;
+  }
+  .gvcs-def p {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1680px) {
+  body {
+    margin: auto;
+    width: 70%;
+  }
+  .word-cloud {
+    margin-top: 35px;
+    margin-left: -250px;
+    margin-bottom: 35px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1920px) {
+  .intro {
+    padding: 100px 125px 0 125px;
+  }
+  .word-cloud {
+    margin-bottom: 45px;
+    margin-left: -275px;
+    margin-top: 45px;
+    width: 110%;
+  }
+  .outro {
+    padding: 50px 200px 50px 200px;
+  }
+  .completion {
+    padding: 25px 200px 25px 200px;
+  }
+}
