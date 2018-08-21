@@ -16,7 +16,7 @@
 
 const quotes = [// Thank you freeCodeCamp.org for most of the quotes in here!
   { author: 'Jonathan Swift',
-    quote: 'May you live every day of your life', },
+    quote: 'May you live every day of your life.', },
   { author: 'George Bernard Shaw',
     quote: 'Life isn\'t about finding yourself. Life is about creating yourself.', },
   { author: 'Ernest Hemingway',
@@ -54,7 +54,7 @@ const quotes = [// Thank you freeCodeCamp.org for most of the quotes in here!
   { author: 'Susan B. Anthony',
     quote: 'Independence is happiness.', },
   { author: 'John Greenleaf Whittier',
-    quote: 'Of all the sad words of tongue or pen, the saddest are these: "It might have been."', },
+    quote: 'Of all the sad words of tongue or pen, the saddest are these: \'It might have been.\'', },
   { author: 'John C. Maxwell',
     quote: 'A leader is one who knows the way, goes the way, and shows the way.', },
   { author: 'Salvador Dalí',
@@ -72,7 +72,47 @@ const quotes = [// Thank you freeCodeCamp.org for most of the quotes in here!
   { author: 'Jim Kwik',
     quote: 'If an egg is broken by an outside force, life ends. If broken by an inside force, life begins. Great things always begin from the inside.', },
   { author: 'Audrey Hepburn',
-    quote: 'Nothing is impossible, the word itself says "I\'m possible"!', },
+    quote: 'Nothing is impossible, the word itself says "I\'m possible\"!', },
+  { author: 'George Bernard Shaw',
+    quote: 'A life spent making mistakes is not only more honorable, but more useful than a life spent doing nothing.', },
+  { author: 'Dr. Seuss',
+    quote: 'If things start happening, don\'t worry, don\'t stew, just go right along and you\'ll start happening too.', },
+  { author: 'Gordon B. Hinckley',
+    quote: 'Without hard work, nothing grows but weeds.', },
+  { author: 'William Shakespeare',
+    quote: 'Be not afraid of greatness. Some are born great, some achieve greatness, and others have greatness thrust upon them.', },
+  { author: 'Alan Watts',
+    quote: 'You\'re under no obligation to be the same person you were 5 minutes ago.', },
+  { author: 'Alan Kay',
+    quote: 'The best way to predict the future is to invent it.', },
+  { author: 'JJ Watts',
+    quote: 'Success isn\'t owned. It is leased, and rent is due everyday.', },
+  { author: 'Anaïs Nin',
+    quote: 'Life shrinks or expands in proportion with one\'s courage.', },
+  { author: 'Theodore Roosevelt',
+    quote: 'Believe you can and you\'re halfway there.', },
+  { author: 'Chinese Proverb',
+    quote: 'All things are difficult before they are easy.', },
+  { author: 'Albert Einstein',
+    quote: 'Your imagination is your preview of life\'s coming attractions.', },
+  { author: 'Charles R. Swindoll',
+    quote: 'Life is 10% what happens to you and 90% how you react to it.', },
+  { author: 'Juliette Gordon Low',
+    quote: 'The work of today is the history of tomorrow, and we are its makers.', },
+  { author: 'Albert Einstein',
+    quote: 'Creativity is intelligence having fun.', },
+  { author: 'Confucius',
+    quote: 'The man who asks a question is a fool for a minute, the man who does not ask is a fool for life.', },
+  { author: 'Stephen King',
+    quote: 'You can, you should, and if you\'re brave enough to start, you will.', },
+  { author: 'Steve Jobs',
+    quote: 'If you are working on something that you really care about, you don\'t have to be pushed. The vision pulls you.', },
+  { author: 'Albert Einstein',
+    quote: 'I have no special talents. I am only passionately curious.', },
+  { author: 'C.S. Lewis',
+    quote: 'You are never too old to set another goal, or to dream a new dream.', },
+  { author: 'Nelson Mandela',
+    quote: 'A winner is a dreamer who never gives up.', },
 ];
 
 /**
@@ -88,7 +128,7 @@ function getRandomQuote() {
   const index = getRandomInt(0, quotes.length - 1);
   const quote = `
     <blockquote>&bdquo;${quotes[index].quote}&ldquo;
-      <footer><em>- ${quotes[index].author}</em></footer>
+      <footer><em>– ${quotes[index].author}</em></footer>
     </blockquote>
   `;
   return quote;
