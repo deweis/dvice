@@ -1,6 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #757575; /* grey darken-1 */
+  margin: auto 0;
 }
 h1 {
   text-align: center;
@@ -8,10 +9,44 @@ h1 {
 main {
   display: flex;
   flex-wrap: wrap;
-  margin: auto;
 }
 img {
   height: 100%;
-  margin: 5px auto;
-  width: 31%;
+  margin: 10px 0;
+  width: 100%;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  body, main {
+    margin: auto;
+  }
+  img {
+    width: 46%;
+    margin: 10px auto;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  img {
+    width: 30%;
+    margin: 10px auto;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1640px) {
+  body {
+    width: 1640px;
+    margin: auto;
+  }
+  main {
+    justify-content: flex-start;
+    margin: auto;
+  }
+  img {
+    width: 23%;
+    margin: 10px 16px;
+  }
 }
