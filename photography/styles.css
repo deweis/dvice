@@ -2,3 +2,16 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #757575; /* grey darken-1 */
 }
+h1 {
+  text-align: center;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+img {
+  height: 100%;
+  margin: 5px auto;
+  width: 31%;
+}
