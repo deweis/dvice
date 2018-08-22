@@ -3,12 +3,19 @@ body {
   color: #757575; /* grey darken-1 */
   margin: auto 0;
 }
+main {
+  margin-bottom: 40px;
+}
 h1 {
   text-align: center;
 }
-main {
+.gallery {
   display: flex;
   flex-wrap: wrap;
+}
+h2 {
+  margin-left: 5px;
+  margin-top: 15vh;
 }
 img {
   height: 100%;
@@ -18,7 +25,7 @@ img {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-  body, main {
+  body {
     margin: auto;
   }
   img {
@@ -41,7 +48,7 @@ img {
     width: 1640px;
     margin: auto;
   }
-  main {
+  .gallery {
     justify-content: flex-start;
     margin: auto;
   }
