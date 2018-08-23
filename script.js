@@ -113,6 +113,16 @@ const quotes = [// Thank you freeCodeCamp.org for most of the quotes in here!
     quote: 'You are never too old to set another goal, or to dream a new dream.', },
   { author: 'Nelson Mandela',
     quote: 'A winner is a dreamer who never gives up.', },
+  { author: 'Erica Jong',
+    quote: 'If you don\'t risk anything, you risk even more.', },
+  { author: 'Chinese Proverb',
+    quote: 'The best time to plant a tree was 20 years ago. The second best time is now.', },
+  { author: 'Mahatma Gandhi',
+    quote: 'Live as if you were to die tomorrow. Learn as if you were to live forever.', },
+  { author: 'Aldous Huxley',
+    quote: 'There is only one corner of the universe you can be certain of improving, and that\'s your own self.', },
+  { author: 'Denise Brennan-Nelson',
+    quote: 'Someday is not a day of the week.', },
 ];
 
 /**
