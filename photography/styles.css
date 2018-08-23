@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #757575; /* grey darken-1 */
-  margin: auto 0;
+  margin: auto;
 }
 main {
   margin-bottom: 40px;
@@ -19,11 +19,11 @@ h2 {
 }
 img {
   height: 100%;
-  margin: 10px 0;
-  width: 30%;
+  margin: 10px auto;
+  width: 46%;
 }
 
-/* Small devices (landscape phones, 576px and up) */
+/* Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
   body {
     margin: auto;
@@ -32,7 +32,7 @@ img {
     width: 46%;
     margin: 10px auto;
   }
-}
+}*/
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
