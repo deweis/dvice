@@ -20,7 +20,7 @@ h2 {
 img {
   height: 100%;
   margin: 10px 0;
-  width: 100%;
+  width: 30%;
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -43,9 +43,9 @@ img {
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1640px) {
+@media (min-width: 1200px) {
   body {
-    width: 1640px;
+    width: 1200px;
     margin: auto;
   }
   .gallery {
@@ -54,6 +54,6 @@ img {
   }
   img {
     width: 23%;
-    margin: 10px 16px;
+    margin: 10px 10px;
   }
 }
