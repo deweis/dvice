@@ -123,6 +123,18 @@ const quotes = [// Thank you freeCodeCamp.org for most of the quotes in here!
     quote: 'There is only one corner of the universe you can be certain of improving, and that\'s your own self.', },
   { author: 'Denise Brennan-Nelson',
     quote: 'Someday is not a day of the week.', },
+  { author: 'Erica Jong',
+    quote: 'If you don\'t risk anything, you risk even more.', },
+  { author: 'Chinese Proverb',
+    quote: 'The best time to plant a tree was 20 years ago. The second best time is now.', },
+  { author: 'Mahatma Gandhi',
+    quote: 'Live as if you were to die tomorrow. Learn as if you were to live forever.', },
+  { author: 'Aldous Huxley',
+    quote: 'There is only one corner of the universe you can be certain of improving, and that\'s your own self.', },
+  { author: 'Denise Brennan-Nelson',
+    quote: 'Someday is not a day of the week.', },
+  { author: 'Helen Keller',
+    quote: 'Optimism is the faith that leads to achievement. Nothing can be done without hope and confidence.', },
 ];
 
 /**
