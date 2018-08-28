@@ -135,6 +135,13 @@ const quotes = [// Thank you freeCodeCamp.org for most of the quotes in here!
     quote: 'Someday is not a day of the week.', },
   { author: 'Helen Keller',
     quote: 'Optimism is the faith that leads to achievement. Nothing can be done without hope and confidence.', },
+  { author: 'Nelson Mandela', quote: 'It always seems impossible until it\'s done', },
+  { author: 'Mae West', quote: 'You only live once, but if you do it right, once is enough.', },
+  { author: 'Lindsay Buckingham', quote: 'If you\'re any good at all, you know you can be better.', },
+  { author: 'Soren Kierkegaard', quote: 'Life can only be understood backwards, but it must be lived forwards.', },
+  { author: 'Voltaire', quote: 'Let us cultivate our garden.', },
+  { author: 'Sun Tzu', quote: 'Can you imagine what I would do if I could do all I can?', },
+  { author: 'Amelia Earhart', quote: 'The most effective way to do it, is to do it.', },
 ];
 
 /**
