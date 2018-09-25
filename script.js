@@ -142,6 +142,16 @@ const quotes = [// Thank you freeCodeCamp.org for most of the quotes in here!
   { author: 'Voltaire', quote: 'Let us cultivate our garden.', },
   { author: 'Sun Tzu', quote: 'Can you imagine what I would do if I could do all I can?', },
   { author: 'Amelia Earhart', quote: 'The most effective way to do it, is to do it.', },
+  { author: 'Michael Jordan', quote: 'I\'ve missed more than 9,000 shots during my career. I\'ve lost almost 300 games. 26 times, I\'ve been trusted to take the game winning shot and missed. I\'ve failed over and over and over again in my life. And that is why I succeed.', },
+  { author: 'Lao Tzu', quote: 'Do the difficult things while they are easy and do the great things while they are small. A journey of a thousand miles must begin with a single step.', },
+  { author: 'Amelia Earhart', quote: 'The most difficult thing is the decision to act, the rest is merely tenacity.', },
+  { author: 'John Muir', quote: 'The power of imagination makes us infinite.', },
+  { author: 'Carl Sagan', quote: 'Somewhere, something incredible is waiting to be known.', },
+  { author: 'Margaret Mead', quote: 'Never doubt that a small group of thoughtful, committed, citizens can change the world. Indeed, it is the only thing that ever has.', },
+  { author: 'Anaïs Nin', quote: 'Life shrinks or expands in proportion with one\'s courage.', },
+  { author: 'Aesop', quote: 'No act of kindness, however small, is ever wasted.', },
+  { author: 'Albert Camus', quote: 'In the depth of winter, I finally learned that within me there lay an invincible summer.', },
+  { author: 'Henry Ford', quote: 'Whether you think you can, or think you can\'t, you\'re probably right.', },
 ];
 
 /**
