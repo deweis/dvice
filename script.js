@@ -149,9 +149,19 @@ const quotes = [// Thank you freeCodeCamp.org for most of the quotes in here!
   { author: 'Carl Sagan', quote: 'Somewhere, something incredible is waiting to be known.', },
   { author: 'Margaret Mead', quote: 'Never doubt that a small group of thoughtful, committed, citizens can change the world. Indeed, it is the only thing that ever has.', },
   { author: 'Anaïs Nin', quote: 'Life shrinks or expands in proportion with one\'s courage.', },
-  { author: 'Aesop', quote: 'No act of kindness, however small, is ever wasted.', },
+  { author: 'Aesop', quote: 'No act of kindness, no matter how small, is ever wasted.', },
   { author: 'Albert Camus', quote: 'In the depth of winter, I finally learned that within me there lay an invincible summer.', },
   { author: 'Henry Ford', quote: 'Whether you think you can, or think you can\'t, you\'re probably right.', },
+  { author: 'Plato', quote: 'Do not train a child to learn by force or harshness; but direct them to it by what amuses their minds, so that you may be better able to discover with accuracy the peculiar bent of the genius of each.', },
+  { author: 'C. S. Lewis', quote: 'With the possible exception of the equator, everything begins somewhere.', },
+  { author: 'Emily Dickinson', quote: 'Forever is composed of nows.', },
+  { author: 'Albert Einstein', quote: 'The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.', },
+  { author: 'Ralph Waldo Emerson', quote: 'Adopt the pace of nature: her secret is patience.', },
+  { author: 'William Faulkner', quote: 'You cannot swim for new horizons until you have courage to lose sight of the shore.', },
+  { author: 'Gena Showalter', quote: 'Giving up is the only sure way to fail.', },
+  { author: 'Paulo Coelho', quote: 'The world is changed by your example, not by your opinion.', },
+  { author: 'Bruce Lee', quote: 'There are no limits. There are only plateaus. And you must not stay there. You must go beyond them.', },
+  { author: 'Søren Kierkegaard', quote: 'Life is not a problem to be solved, but a reality to be experienced.', },
 ];
 
 /**
