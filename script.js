@@ -162,6 +162,9 @@ const quotes = [// Thank you freeCodeCamp.org for most of the quotes in here!
   { author: 'Paulo Coelho', quote: 'The world is changed by your example, not by your opinion.', },
   { author: 'Bruce Lee', quote: 'There are no limits. There are only plateaus. And you must not stay there. You must go beyond them.', },
   { author: 'Søren Kierkegaard', quote: 'Life is not a problem to be solved, but a reality to be experienced.', },
+  { author: 'Søren Kierkegaard', quote: 'The highest and most beautiful things in life are not to be heard about, nor read about, nor seen but, if one will, are to be lived.', },
+  { author: 'Lao Tzu', quote: 'Doing nothing is better than being busy doing nothing.', },
+  { author: 'Thomas Alva Edison', quote: 'Opportunity is missed by people because it is dressed in overalls and looks like work.', },
 ];
 
 /**
