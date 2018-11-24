@@ -165,6 +165,17 @@ const quotes = [// Thank you freeCodeCamp.org for most of the quotes in here!
   { author: 'Søren Kierkegaard', quote: 'The highest and most beautiful things in life are not to be heard about, nor read about, nor seen but, if one will, are to be lived.', },
   { author: 'Lao Tzu', quote: 'Doing nothing is better than being busy doing nothing.', },
   { author: 'Thomas Alva Edison', quote: 'Opportunity is missed by people because it is dressed in overalls and looks like work.', },
+  { author: 'Lao Tzu', quote: 'An ant on the move does more than a dozing ox.', },
+  { author: 'Bill Mollison', quote: 'The only ethical decision is to take responsibility for our own existence and that of our children.', },
+  { author: 'Theodore Roethke', quote: 'Over every mountain there is a path, although it may not be seen from the valley.', },
+  { author: 'Albert Einstein', quote: 'If you can\'t explain it to a six year old, you don\'t understand it yourself.', },
+  { author: 'Johann Wolfgang von Goethe', quote: 'By seeking and blundering we learn.', },
+  { author: 'Will Rogers', quote: 'Good judgment comes from experience, and a lot of that comes from bad judgment.', },
+  { author: 'Author Unknown', quote: 'Life is like a camera. Focus on what’s important, capture the good times, develop from the negatives, and if things don\'t work out, take another shot.', },
+  { author: 'Benjamin Franklin', quote: 'Well done is better than well said.', },
+  { author: 'Rumi', quote: 'Don\'t be satisfied with stories, how things have gone with others. Unfold your own myth.', },
+  { author: 'Winston S. Churchill', quote: 'Success is stumbling from failure to failure with no loss of enthusiasm.', },
+  { author: 'Robert Louis Stevenson', quote: 'Don\'t judge each day by the harvest you reap but by the seeds that you plant.', },
 ];
 
 /**
