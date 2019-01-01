@@ -440,7 +440,25 @@ const quotes = [
     author: 'Robert Louis Stevenson',
     quote:
       "Don't judge each day by the harvest you reap but by the seeds that you plant."
-  }
+  },
+  {
+    author: 'Mary Anne Evans',
+    quote: 'It is never too late to be what you might have been.'
+  },
+  {
+    author: 'Louie Schwartzberg',
+    quote:
+      "Nature's beauty is a gift that cultivates appreciation and gratitude."
+  },
+  {
+    author: 'William Shakespeare',
+    quote: 'We know what we are, but not what we may be.'
+  },
+  {
+    author: 'Matsuo Basho',
+    quote: 'Every day is a journey, and the journey itself is home.'
+  },
+  { author: 'Robert Frost', quote: 'The best way out is always through.' }
 ];
 
 /**
