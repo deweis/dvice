@@ -458,7 +458,17 @@ const quotes = [
     author: 'Matsuo Basho',
     quote: 'Every day is a journey, and the journey itself is home.'
   },
-  { author: 'Robert Frost', quote: 'The best way out is always through.' }
+  { author: 'Robert Frost', quote: 'The best way out is always through.' },
+  {
+    author: 'Marie Curie',
+    quote:
+      'Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.'
+  },
+  {
+    author: 'Johann Wolfgang von Goethe',
+    quote:
+      'Knowing is not enough, we must apply. Wishing is not enough, we must do.'
+  }
 ];
 
 /**
