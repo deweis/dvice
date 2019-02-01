@@ -468,6 +468,11 @@ const quotes = [
     author: 'Johann Wolfgang von Goethe',
     quote:
       'Knowing is not enough, we must apply. Wishing is not enough, we must do.'
+  },
+  {
+    author: 'Rabindranath Tagore',
+    quote:
+      "You can't cross the sea merely by standing and staring at the water."
   }
 ];
 
