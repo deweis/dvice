@@ -473,6 +473,11 @@ const quotes = [
     author: 'Rabindranath Tagore',
     quote:
       "You can't cross the sea merely by standing and staring at the water."
+  },
+  {
+    author: 'Zig Ziglar',
+    quote:
+      "You don't have to be great to start, but you have to start to be great."
   }
 ];
 
