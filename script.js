@@ -478,6 +478,14 @@ const quotes = [
     author: 'Zig Ziglar',
     quote:
       "You don't have to be great to start, but you have to start to be great."
+  },
+  {
+    author: 'Lao Tzu',
+    quote: 'The journey of a thousand miles begins with one step.'
+  },
+  {
+    author: 'Sam Levenson',
+    quote: "Don't watch the clock; do what it does. Keep going."
   }
 ];
 
