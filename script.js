@@ -486,6 +486,17 @@ const quotes = [
   {
     author: 'Sam Levenson',
     quote: "Don't watch the clock; do what it does. Keep going."
+  },
+  {
+    author: 'Thomas A. Edison',
+    quote:
+      'Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.'
+  },
+  { author: 'Abraham Lincoln', quote: 'Whatever you are, be a good one.' },
+  {
+    author: 'Johann Wolfgang von Goethe',
+    quote:
+      'Knowing is not enough; we must apply. Wishing is not enough; we must do.'
   }
 ];
 
