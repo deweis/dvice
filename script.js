@@ -497,6 +497,11 @@ const quotes = [
     author: 'Johann Wolfgang von Goethe',
     quote:
       'Knowing is not enough; we must apply. Wishing is not enough; we must do.'
+  },
+  {
+    author: 'Thomas J. Watson',
+    quote:
+      'The ability to ask the right question is more than half the battle of finding the answer.'
   }
 ];
 
