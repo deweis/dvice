@@ -502,6 +502,10 @@ const quotes = [
     author: 'Thomas J. Watson',
     quote:
       'The ability to ask the right question is more than half the battle of finding the answer.'
+  },
+  {
+    author: 'Leonardo da Vinci',
+    quote: 'Simplicity is the ultimate sophistication.'
   }
 ];
 
