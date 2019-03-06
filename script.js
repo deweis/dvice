@@ -506,6 +506,10 @@ const quotes = [
   {
     author: 'Leonardo da Vinci',
     quote: 'Simplicity is the ultimate sophistication.'
+  },
+  {
+    author: 'Colette',
+    quote: 'You will do foolish things, but do them with enthusiasm.'
   }
 ];
 
