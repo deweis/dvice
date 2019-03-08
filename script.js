@@ -508,6 +508,10 @@ const quotes = [
     quote: 'Simplicity is the ultimate sophistication.'
   },
   {
+    author: 'Confucius',
+    quote: 'The past cannot be changed. The future is yet in your power.'
+  },
+  {
     author: 'Colette',
     quote: 'You will do foolish things, but do them with enthusiasm.'
   }
