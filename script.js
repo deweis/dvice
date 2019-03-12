@@ -514,6 +514,10 @@ const quotes = [
   {
     author: 'Colette',
     quote: 'You will do foolish things, but do them with enthusiasm.'
+  },
+  {
+    author: 'Mark Twain',
+    quote: 'The secret of getting ahead is getting started.'
   }
 ];
 
