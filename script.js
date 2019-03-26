@@ -518,6 +518,11 @@ const quotes = [
   {
     author: 'Mark Twain',
     quote: 'The secret of getting ahead is getting started.'
+  },
+  {
+    author: 'Steve Jobs',
+    quote:
+      'Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose. You are already naked. There is no reason not to follow your heart.'
   }
 ];
 
