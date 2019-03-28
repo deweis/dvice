@@ -523,7 +523,8 @@ const quotes = [
     author: 'Steve Jobs',
     quote:
       'Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose. You are already naked. There is no reason not to follow your heart.'
-  }
+  },
+  { author: 'Aristotle', quote: 'Quality is not an act, it is a habit.' }
 ];
 
 /**
