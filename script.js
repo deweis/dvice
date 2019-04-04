@@ -524,7 +524,12 @@ const quotes = [
     quote:
       'Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose. You are already naked. There is no reason not to follow your heart.'
   },
-  { author: 'Aristotle', quote: 'Quality is not an act, it is a habit.' }
+  { author: 'Aristotle', quote: 'Quality is not an act, it is a habit.' },
+  {
+    author: 'Maya Angelou',
+    quote:
+      'Do the best you can until you know better. Then when you know better, do better.'
+  }
 ];
 
 /**
