@@ -529,6 +529,10 @@ const quotes = [
     author: 'Maya Angelou',
     quote:
       'Do the best you can until you know better. Then when you know better, do better.'
+  },
+  {
+    author: 'Henry Ford',
+    quote: 'Cut your own firewood. It will heat you twice.'
   }
 ];
 
