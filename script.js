@@ -533,6 +533,10 @@ const quotes = [
   {
     author: 'Henry Ford',
     quote: 'Cut your own firewood. It will heat you twice.'
+  },
+  {
+    author: 'Benjamin Franklin',
+    quote: 'By failing to prepare, you are preparing to fail.'
   }
 ];
 
