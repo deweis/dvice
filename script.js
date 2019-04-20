@@ -537,6 +537,11 @@ const quotes = [
   {
     author: 'Benjamin Franklin',
     quote: 'By failing to prepare, you are preparing to fail.'
+  },
+  {
+    author: 'Chinese Proverb',
+    quote:
+      'If you plan for one year, plant rice. If you plan for ten years, plant trees. If you plan for 100 years, educate humanity.'
   }
 ];
 
